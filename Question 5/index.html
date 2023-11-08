@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" type="text/css" href="external.css">
+</head>
+<body>
+    <h1>Inventory Management System</h1>
+    <p class="description">Welcome to our inventory management system. Manage your products efficiently.</p>
+    
+    <h2>Product List</h2>
+    <ul class="product-list">
+        <li>Product 1: Laptop</li>
+        <li>Product 2: Smartphone</li>
+        <li>Product 3: Printer</li>
+    </ul>
+    
+    <h2>Inventory Table</h2>
+    <table class="inventory">
+        <tr>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Product 1</td>
+            <td>Electronics</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Product 2</td>
+            <td>Electronics</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Product 3</td>
+            <td>Office Supplies</td>
+            <td>5</td>
+        </tr>
+    </table>
+    
+    <h2>Add New Product</h2>
+    <form class="product-form">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" name="productName"><br><br>
+        
+        <label for="productCategory">Category:</label>
+        <input type="text" id="productCategory" name="productCategory"><br><br>
+        
+        <label for="productQuantity">Quantity:</label>
+        <input type="number" id="productQuantity" name="productQuantity"><br><br>
+        
+        <input type="submit" value="Add Product">
+    </form>
+</body>
+</html>

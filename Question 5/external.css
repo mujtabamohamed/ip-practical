@@ -1,0 +1,51 @@
+/* CSS for external styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px;
+}
+
+.description {
+    font-style: italic;
+    color: #333;
+}
+
+.product-list {
+    list-style-type: square;
+    color: #0077b6;
+}
+
+.inventory {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.inventory th, .inventory td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.inventory th {
+    background-color: #0077b6;
+    color: #fff;
+}
+
+.product-form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.product-form label {
+    font-weight: bold;
+    color: #0077b6;
+}

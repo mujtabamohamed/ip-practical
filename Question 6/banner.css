@@ -1,0 +1,54 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px;
+}
+
+.section-header {
+    font-size: 24px;
+    color: #0077b6;
+    text-decoration: underline;
+}
+
+/* Banner list styles */
+.banner-list li {
+    list-style: none;
+    font-size: 18px;
+}
+
+/* Analytics styles */
+.analytics {
+    border: 1px solid #0077b6;
+    padding: 10px;
+    margin: 20px;
+}
+
+.impressions::before {
+    content: "Impressions: ";
+    font-weight: bold;
+}
+
+.ctr::before {
+    content: "CTR: ";
+    font-weight: bold;
+}
+
+/* Banner form styles */
+.banner-form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.banner-form label {
+    font-weight: bold;
+    color: #0077b6;
+}

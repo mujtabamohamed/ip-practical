@@ -1,0 +1,65 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Advertisement styles */
+.advertisement {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.advertisement img {
+    max-width: 100%;
+}
+
+.ad-title {
+    color: #0077b6;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.ad-description {
+    color: #555;
+    font-size: 16px;
+}
+
+.ad-link {
+    background-color: #0077b6;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.ad-link:hover {
+    background-color: #005c8d;
+}
+
+/* Pseudo-class styles */
+.advertisement:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+.ad-description::first-letter {
+    font-size: 24px;
+    color: #0077b6;
+}

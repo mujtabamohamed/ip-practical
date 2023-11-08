@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Timetable</title>
+</head>
+<body>
+    <h1>Class Timetable</h1>
+
+    <!-- Table for class schedule -->
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>8:00 AM</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Physical Ed.</td>
+        </tr>
+        <tr>
+            <td>9:00 AM</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>English</td>
+            <td>History</td>
+            <td>Physical Ed.</td>
+        </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>History</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>English</td>
+            <td>Physical Ed.</td>
+        </tr>
+        <!-- Add more rows for additional time slots -->
+    </table>
+
+    <!-- List of upcoming events -->
+    <h2>Upcoming Events</h2>
+    <ul>
+        <li>Field Trip: Museum Visit (Wednesday, 2:00 PM)</li>
+        <li>Parent-Teacher Conference (Friday, 3:30 PM)</li>
+    </ul>
+
+    <!-- Frames for displaying external content -->
+    <h2>Important Links</h2>
+    <frame src="links.html" frameborder="0" scrolling="auto" width="100%" height="200"></frame>
+
+    <!-- Form for student registration -->
+    <h2>Student Registration</h2>
+    <form action="submit_registration.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="class">Class:</label>
+        <select id="class" name="class">
+            <option value="1A">1A</option>
+            <option value="2B">2B</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Multimedia content (video) -->
+    <h2>Classroom Video</h2>
+    <video width="640" height="360" controls>
+        <source src="classroom.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
